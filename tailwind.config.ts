@@ -53,8 +53,8 @@ export default {
         },
         gold: {
           DEFAULT: "hsl(var(--primary))",
-          glow: "hsl(var(--gold-glow))",
-          subtle: "hsl(var(--gold-subtle))",
+          glow: "hsl(var(--primary))",
+          subtle: "hsl(var(--muted))",
         },
       },
       borderRadius: {

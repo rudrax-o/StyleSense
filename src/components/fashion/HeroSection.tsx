@@ -10,7 +10,7 @@ export const HeroSection = ({ onStart }: HeroSectionProps) => {
     <div className="min-h-screen flex flex-col items-center justify-center px-6 relative">
       {/* Background glow */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-gold-subtle/20 blur-[120px]" />
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-muted/40 blur-[120px]" />
       </div>
 
       <motion.div
